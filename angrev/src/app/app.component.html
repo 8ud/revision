@@ -1,0 +1,9 @@
+
+<button class="btn btn-success" (click)="onClickBtGet()">Call Get</button>
+<button class="btn btn-danger" (click)="onClickBtPost()">Call Post</button>
+<button class="btn btn-primary" (click)="onClickBtPostPromise()">Call Post Prm</button>
+<br/>
+<input type="text" class="form-control col-4" [(ngModel)]="nom" >
+<input type="text" class="form-control col-4" [(ngModel)]="mail" >
+
+<router-outlet></router-outlet>
